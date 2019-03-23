@@ -676,7 +676,9 @@ textarea:invalid {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: #114343;
+
+}
   .header-area.sticky {
     position: fixed;
     width: 100%;
@@ -684,7 +686,7 @@ textarea:invalid {
     left: 0;
     right: 0;
     z-index: 990;
-    background: #0c0c0c;
+    background: #114343;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15); }
     .header-area.sticky .classy-navbar {
       height: 80px; }
@@ -693,7 +695,7 @@ textarea:invalid {
   background-color: #ffffff; }
 
 .breakpoint-on .classy-navbar .classy-menu {
-  background-color: #0c0c0c; }
+  background-color: #114343; }
 
 .breakpoint-on .classynav > ul > li > a {
   background-color: transparent;
@@ -1595,7 +1597,7 @@ textarea.form-control {
       .single-post-area .post-content p {
         display: block; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .single-post-area .post-content p {
+      .single-post-area .post-contentf p {
         display: none; } }
     .single-post-area .post-content .post-title {
       font-size: 36px;
